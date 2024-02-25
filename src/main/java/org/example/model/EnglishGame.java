@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class EngGame extends AbstractGame{
-    public EngGame() {
+public class EnglishGame extends AbstractGame{
+    public EnglishGame() {
     }
 
     @Override

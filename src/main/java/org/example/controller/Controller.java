@@ -1,7 +1,7 @@
 package org.example.controller;
 
 import org.example.model.AbstractGame;
-import org.example.model.EngGame;
+import org.example.model.EnglishGame;
 import org.example.model.GameStatus;
 import org.example.model.NumberGame;
 import org.example.model.RussianGame;
@@ -28,7 +28,7 @@ public class Controller {
                     ag = new RussianGame();
                     break;
                 case 3:
-                    ag = new EngGame();
+                    ag = new EnglishGame();
                     break;
                 default:
                     view.displayInvalidInputMessage();
